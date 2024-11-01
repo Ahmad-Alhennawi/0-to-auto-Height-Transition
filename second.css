@@ -1,0 +1,26 @@
+.main {
+    background-color: hsl(200 50% 50%);
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows .5s;
+    -webkit-transition: grid-template-rows .5s;
+    -moz-transition: grid-template-rows .5s;
+    -ms-transition: grid-template-rows .5s;
+    -o-transition: grid-template-rows .5s;
+}
+
+.main div {
+    overflow: hidden;
+}
+
+.main:hover {
+    grid-template-rows: 1fr;
+}
